@@ -16,7 +16,6 @@ function initializePage() {
 function clickName(e){	
 	e.preventDefault(); 
 	var curName = $(this).text();
-	console.log(curName);
 	$(this).text(anagrammedName(curName));
 }
 
